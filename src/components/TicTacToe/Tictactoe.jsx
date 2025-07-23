@@ -99,7 +99,7 @@ const Tictactoe = () => {
   return (
     <div className='container'>
         <h1 className="title" ref={titleRef}>
-            Tic Tac Toe In <span> React</span>
+            Simple <span> Tic Tac Toe</span>
         </h1>
         <div className="board">
                 <div className="row1">
