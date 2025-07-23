@@ -85,7 +85,7 @@ const Tictactoe = () => {
     setCount(0); // Reset the move count
     data = ["", "", "", "", "", "", "", "", ""];
 
-    titleRef.current.innerHTML = 'Tic Tac Toe In <span>React</span>';
+    titleRef.current.innerHTML = 'Simple <span>Tic Tac Toe</span>';
 
     box_array.forEach((box) => {
         if (box.current) {
